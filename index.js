@@ -19,8 +19,8 @@ app.get('/getQuestion', (req, res) => {
 
 const io = new Server(server, {
   cors: {
-    origin: "live-chat-six.vercel.app",
-    methods: ["GET", "POST"],
+	origin: ["https://live-chat-six.vercel.app"],
+	methods: ["GET", "POST"],
   },
 });
 
