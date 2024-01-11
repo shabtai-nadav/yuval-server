@@ -65,6 +65,6 @@ io.on("connection", (socket) => {
 
 });
 
-server.listen(80, () => {
+server.listen(443, () => {
   console.log("SERVER RUNNING");
 });
